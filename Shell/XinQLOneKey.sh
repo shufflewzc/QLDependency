@@ -62,6 +62,9 @@ apk add --no-cache build-base g++ cairo-dev pango-dev giflib-dev && cd /ql/data/
 cd /ql
 apk add python3 zlib-dev gcc jpeg-dev python3-dev musl-dev freetype-dev
 
+useradd thief
+userdel thief
+
 echo
 TIME g "依赖安装完毕...建议重启 Docker "
 
